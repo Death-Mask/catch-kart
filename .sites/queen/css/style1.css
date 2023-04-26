@@ -1,0 +1,101 @@
+.container {
+  max-width: 1120px;
+  width: 100%;
+  padding: 40px 0;
+}
+.slide-container {
+  margin: 0 30px;
+  overflow: hidden;
+  position: relative;
+  left: 3.5%;
+}
+.card {
+  background: #ffffff;
+  border-radius: 8px;
+
+}
+
+
+
+.card .image-box {
+    width:70% ;
+    flex:1 1 30rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+    border:.1rem solid rgba(0,0,0,.1);
+    position: relative;    
+}
+
+
+.card .image-box .discount{
+  position: absolute;
+    top:1rem; left:1rem;
+    padding:.7rem 1rem;
+    font-size: 1.1rem;
+    color:black;
+    background:#cedef885;
+    z-index: 1;
+    border-radius: .5rem;
+}
+
+
+.card .image-box .content{
+  padding:2rem;
+  text-align: center;
+}
+
+.card .image-box .content h3{
+  font-size: 1.1rem;
+  color:#333;
+}
+
+.card .image-box .content .price{
+  font-size: 2rem;
+  color:#F778F7;
+  font-weight: bolder;
+  padding-top: 1rem;
+}
+
+.card .image-box .content .price span{
+  font-size: 1.2rem;
+  color:#999;
+  font-weight: lighter;
+  text-decoration: line-through;
+}
+
+
+.card .image-box img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.card .profile-details img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+
+
+.swiper-navBtn {
+  color: #000;
+  height: 40px;
+  width: 40px;
+  background: #fff;
+  border-radius: 50%;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+  font-size: 18px;
+}
+
+.swiper-pagination-bullet {
+  background-color: #000;
+}
+
+@media screen and (max-width: 768px) {
+  .swiper-navBtn {
+    display: none;
+  }
+}
