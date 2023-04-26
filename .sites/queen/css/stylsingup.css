@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+:root{
+    --pink:linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+    --primary-color: #5344db;
+    --accent-color: #5344db;
+    --grey:#484848;
+    --bg-grey: #efefef;
+    --shadow: #949494;
+}
+
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+
+section{
+    padding:2rem 9%;
+}
+
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    color:black;
+    padding:1rem;
+    margin:2rem 0;
+    background:	#FFBBEC;
+}
+
+.heading span{
+    color:white;
+}
+
+header{
+    position: fixed;
+    top:0; left:0; right:0;
+    background:	var(--pink);
+    padding:2rem 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+header .navbar .vip{
+
+    width: 35px;
+    height: 30px;
+    position:relative;
+    top:6px;
+    left: 30px;
+    
+    
+}
+
+header .navbar .vip:hover{
+    animation: shake 0.5s;
+
+}
+
+
+header .book{
+    height:6%;
+    width: 4%;
+}
+
+
+header .logo span{
+    font-size: 3rem;
+    color:#333;
+    font-weight: bolder;
+}
+
+header .navbar a{
+    font-size: 2rem;
+    padding:0 1.5rem;
+    color:#666;
+}
+
+header .navbar a:hover{
+    color:white;
+}
+
+
+header #toggler{
+    display: none;
+}
+
+header .fa-bars{
+    font-size: 3rem;
+    color:#333;
+    border-radius: .5rem;
+    padding:.5rem 1.5rem;
+    cursor: pointer;
+    border:.1rem solid rgba(0,0,0,.3);
+    display: none;
+}
+
+.footer {
+    background-color: black;
+}
+
+.footer .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+
+.footer .box-container .box{
+    flex:1 1 25rem;
+}
+
+.footer .box-container .box h3{
+    color:#A9C9FF;
+    font-size: 2.5rem;
+    padding:1rem 0;
+}
+
+.footer .box-container .box a{
+    display: block;
+    color:white;
+    font-size: 1.5rem;
+    padding:1rem 0;
+}
+
+.footer .box-container .box a:hover{
+    color:#F778F7;
+    text-decoration: underline;
+}
+
+.footer .box-container .box  img{
+    margin-top: 1rem;
+}
+
+
+.contact .row{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap:1.5rem;
+    align-items: center;
+}
+
+.contact .row form{
+    flex:1 1 40rem;
+    padding:2rem 2.5rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    border:.1rem solid rgba(0,0,0,.1);
+    background: #fff;
+    border-radius: .5rem;
+}
+
+.contact .row .image{
+    flex:1 1 40rem;
+}
+
+.contact .row .image img{
+    width: 100%;
+}
+
+.contact .row form .box{
+    padding:1rem;
+    font-size: 1.7rem;
+    color:#333;
+    text-transform: none;
+    border:.1rem solid rgba(0,0,0,.1);
+    border-radius: .5rem;
+    margin:.7rem 0;
+    width: 100%;
+}
+
+.contact .row form .box:focus{
+    border-color: #A9C9FF;
+}
+
+.contact .row form textarea{
+    height: 15rem;
+    resize: none;
+}
+
+.contact .row form .creditCardForm {
+    max-width: 700px;
+    background-color: #fff;
+    overflow: hidden;
+    padding: 25px;
+    color: #4c4e56;
+}
+
+
+.contact .row form .creditCardForm .payment {
+    float: left;
+    font-size: 15px;
+    padding: 10px 25px;
+    margin-top: 20px;
+    position: relative;
+}
+.contact .row form .creditCardForm .payment .form-group1{
+    position: relative;
+    left: 250px;
+    bottom:40px;
+}
+.contact .row form .creditCardForm .payment .form-group {
+    float: left;
+
+}
+select{
+    width: 100px;
+    height: 38px;
+    border: rgba(0, 0, 0, 0.138) solid 1px;
+    border-radius: 4px;
+    background-color: #cecece;
+}
+
+.contact .row form .creditCardForm .payment .form-control1 {
+    line-height: 40px;
+    height: auto;
+    padding: 0 16px;
+    border: rgba(0, 0, 0, 0.138) solid 1px;
+    border-radius: 4px;
+    width: 300px;
+    height: 35px;
+}
+.contact .row form .creditCardForm .payment .form-control1:focus{
+    border-color: #A9C9FF;
+}
+
+.contact .row form .creditCardForm .payment .form-control2 {
+    line-height: 40px;
+    height: auto;
+    padding: 0 16px;
+    border: rgba(0, 0, 0, 0.138) solid 1px;
+    border-radius: 4px;
+    width: 115px;
+    height: 35px;
+}
+
+.contact .row form .creditCardForm .payment .form-control2:focus{
+    border-color: #A9C9FF;
+}
+
+.contact .row form .creditCardForm .payment .form-control3 {
+    line-height: 40px;
+    height: auto;
+    padding: 0 16px;
+    border: rgba(0, 0, 0, 0.138) solid 1px;
+    border-radius: 4px;
+    width: 500px;
+    height: 35px;
+}
+
+.contact .row form .creditCardForm .payment .form-control3:focus{
+    border-color: #A9C9FF;
+}
+
+.contact .row form .creditCardForm .owner {
+    width: 63%;
+    margin-right: 10px;
+
+}
+
+.contact .row form .creditCardForm .CVV {
+    width: 35%;
+
+}
+
+.contact .row form .creditCardForm #card-number-field {
+    width: 100%;
+}
+
+.contact .row form .creditCardForm #expiration-date {
+    width: 49%;
+}
+
+.contact .row form .creditCardForm #credit_cards {
+    width: 50%;
+    margin-top: 25px;
+    text-align: right;
+}
+
+.contact .row form .creditCardForm #pay-now {
+    width: 100%;
+    margin-top: 25px;
+}
+
+.contact .row form .creditCardForm .payment .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background:#333;
+    color:#fff;
+    padding:.9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+.contact .row form .creditCardForm .payment .btn:hover {
+    background-color:#F778F7;
+    color:black;
+}
+
+.contact .row form .creditCardForm .payment select {
+    padding: 10px;
+    margin-right: 15px;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  } 
