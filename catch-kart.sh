@@ -76,7 +76,7 @@ check_update(){
 	clear
 	banner_small ;
 	echo -ne "\n${GREEN}[${WHITE}+${GREEN}]${CYAN} Checking for update : "
-	new_version=$(curl --silent https://github.com/000sallam000/catch-kart/edit/main/catch-kart.sh | grep '__version__=' | cut -d">" -f2 | cut -d"<" -f1 | cut -d"=" -f 2)
+	new_version=$(curl --silent https://github.com/000sallam000/catch-kart/blob/main/catch-kart.sh | grep '__version__=' | cut -d">" -f2 | cut -d"<" -f1 | cut -d"=" -f 2)
 	tarball_url="https://github.com/000sallam000/catch-kart/archive/refs/tags/${new_version}.tar.gz"
 
 	if [[ $new_version != $__version__ ]]; then
