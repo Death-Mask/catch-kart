@@ -61,6 +61,13 @@ It only demonstrates "how phishing works". <b>You shall not misuse the informati
   ```
 
 - On first launch, It'll install the dependencies and that's it. ***catch-kart*** is installed.
+ 
+  ##
+
+<h3 align="center"><i>Workflow</i></h3>
+<p align="center">
+<img src=".github/misc/workflow.gif"/>
+</p>
 
 ##
 
@@ -81,13 +88,6 @@ It only demonstrates "how phishing works". <b>You shall not misuse the informati
 - **Ubuntu**
 - **Debian**
 </details>
-
-##
-
-<h3 align="center"><i>Workflow</i></h3>
-<p align="center">
-<img src=".github/misc/workflow.gif"/>
-</p>
 
 ##
 
