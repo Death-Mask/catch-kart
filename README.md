@@ -55,10 +55,10 @@ It only demonstrates "how phishing works". <b>You shall not misuse the informati
   git clone https://github.com/000sallam000/catch-kart.git
   ```
 
-- Now go to cloned directory and run `catch-kart.sh` -
+- Now go to cloned directory and run `catch-kart` -
   ```
   $ cd catch-kart
-  $ chmod *x catch-kart.sh
+  $ chmod +x catch-kart.sh
   $ bash zphisher.sh or ./catch-kart.sh
   ```
 
