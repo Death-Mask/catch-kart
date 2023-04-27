@@ -71,7 +71,6 @@ It only demonstrates "how phishing works". <b>You shall not misuse the informati
 
 ##
 
-
 <h3>Dependencies</h3>
 
 <b>catch-kart</b> requires following programs to run properly - 
@@ -80,14 +79,12 @@ It only demonstrates "how phishing works". <b>You shall not misuse the informati
 - `php`
 
 > All the dependencies will be installed automatically when you run **catch-kart** for the first time.
-</details>
 
-<details>
-  <summary><h3>Tested on</h3></summary>
+
+<h3>Tested on</h3>
 
 - **Ubuntu**
 - **Debian**
-</details>
 
 ##
 
