@@ -71,8 +71,8 @@ It only demonstrates "how phishing works". <b>You shall not misuse the informati
 
 ##
 
-<details>
-  <summary><h3>Dependencies</h3></summary>
+
+<h3>Dependencies</h3>
 
 <b>catch-kart</b> requires following programs to run properly - 
 - `git`
