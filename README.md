@@ -44,7 +44,6 @@ It only demonstrates "how phishing works". <b>You shall not misuse the informati
   - Cloudflared
   - LocalXpose
 - Mask URL support 
-- Docker support
 
 ##
 
