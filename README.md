@@ -6,7 +6,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Version-1.0.0-green?style=for-the-badge">
-  <img src="https://img.shields.io/badge/license-GNU General Public License v3.0?style=for-the-badge">
+  <img src="https://img.shields.io/github/license/000sallam000/catch-kart?style=for-the-badge">
   <img src="https://img.shields.io/github/stars/000sallam000/catch-kart?style=for-the-badge">
   <img src="https://img.shields.io/github/issues/000sallam000/catch-kart?color=red&style=for-the-badge">
   <img src="https://img.shields.io/github/forks/000sallam000/catch-kart?color=teal&style=for-the-badge">
