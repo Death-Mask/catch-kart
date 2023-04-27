@@ -1,6 +1,6 @@
 #!/bin/bash
 
-__version__=1.1.0
+__version__="0.0.0"
 
 ## DEFAULT HOST & PORT
 HOST='127.0.0.1'
