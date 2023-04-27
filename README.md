@@ -9,8 +9,7 @@
   <img src="https://img.shields.io/github/license/000sallam000/catch-kart?style=for-the-badge">
   <img src="https://img.shields.io/github/stars/000sallam000/catch-kart?style=for-the-badge">
   <img src="https://img.shields.io/github/issues/000sallam000/catch-kart?color=red&style=for-the-badge">
-  <img src="https://img.shields.io/github/forks/000sallam000/catch-kart?color=teal&style=for-the-badge">
-</p>
+  </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Author-Sa升升am-blue?style=flat-square">
