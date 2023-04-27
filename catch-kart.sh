@@ -80,9 +80,9 @@ check_update(){
 	tarball_url="https://github.com/000sallam000/catch-kart/archive/refs/tags/${new_version}.tar.gz"
 
 	if [[ $new_version != $__version__ ]]; then
-		echo -ne "${ORANGE}update found ${RED}Version : ${__version__}\n"${WHITE}
+		echo -ne "${ORANGE}update found ${RED}Version : ${new_version}\n"${WHITE}
 		sleep 2
-		echo -ne "\n${GREEN}[${WHITE}+${GREEN}]${ORANGE} Downloading Update ${RED}Version : ${__version__} ..."
+		echo -ne "\n${GREEN}[${WHITE}+${GREEN}]${ORANGE} Downloading Update ${RED}Version : ${new_version} ..."
 		pushd "$HOME" > /dev/null 2>&1
 		curl --silent --insecure --fail --retry-connrefused \
 		--retry 3 --retry-delay 2 --location --output ".catch-kart.tar.gz" "${tarball_url}"
