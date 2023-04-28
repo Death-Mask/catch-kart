@@ -6,9 +6,9 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Version-1.0.0-green?style=for-the-badge">
-  <img src="https://img.shields.io/github/license/000sallam000/catch-kart?color=red&style=for-the-badge">
-  <img src="https://img.shields.io/github/stars/000sallam000/catch-kart?color=red&style=for-the-badge">
-  <img src="https://img.shields.io/github/issues/000sallam000/catch-kart?color=red&style=for-the-badge">
+  <img src="https://img.shields.io/github/license/Death-Mask/catch-kart?color=red&style=for-the-badge">
+  <img src="https://img.shields.io/github/stars/Death-Mask/catch-kart?color=red&style=for-the-badge">
+  <img src="https://img.shields.io/github/issues/Death-Mask/catch-kart?color=red&style=for-the-badge">
   </p>
 
 <p align="center">
@@ -16,7 +16,7 @@
   <img src="https://img.shields.io/badge/Open%20Source-Yes-darkgreen?style=flat-square">
   <img src="https://img.shields.io/badge/Maintained%3F-Yes-lightblue?style=flat-square">
   <img src="https://img.shields.io/badge/Written%20In-Bash-darkcyan?style=flat-square">
-  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fhtr-tech%2Fcatch-kart&title=Visitors&edge_flat=false"/></a>
+  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FDeath-Mask%2Fcatch-kart&title=Visitors&edge_flat=false"/></a>
 </p>
 
 <p align="center"><b>A beginners friendly, Automated phishing tool.</b></p>
@@ -50,7 +50,7 @@ It only demonstrates "how phishing works". <b>You shall not misuse the informati
 
 - Just, Clone this repository -
   ```
-  git clone https://github.com/000sallam000/catch-kart.git
+  git clone https://github.com/Death-Mask/catch-kart.git
   ```
 
 - Now go to cloned directory and run `catch-kart` -
@@ -92,7 +92,7 @@ It only demonstrates "how phishing works". <b>You shall not misuse the informati
 ### Find Me on:
 <p align="left">
   <a href="https://www.linkedin.com/in/sal-lam-ab422026b/" target="_blank"><img src="https://img.shields.io/badge/Socials-grey?style=for-the-badge&logo=linktree"></a>
-  <a href="https://github.com/000sallam000" target="_blank"><img src="https://img.shields.io/badge/Github-blue?style=for-the-badge&logo=github"></a>
+  <a href="https://github.com/Death-Mask" target="_blank"><img src="https://img.shields.io/badge/Github-blue?style=for-the-badge&logo=github"></a>
 </p>
 
 
