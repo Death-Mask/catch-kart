@@ -95,5 +95,9 @@ It only demonstrates "how phishing works". <b>You shall not misuse the informati
   <a href="https://github.com/Death-Mask" target="_blank"><img src="https://img.shields.io/badge/Github-blue?style=for-the-badge&logo=github"></a>
 </p>
 
+##
 
+### License
+This program has been licensed under the GNU GPL v3 License.
+If you are a true FOSS (Free And Open Source Software) Lover, you wont customize this and redistribute this under your name!
 <!-- // -->
