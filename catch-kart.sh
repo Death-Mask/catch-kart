@@ -76,7 +76,7 @@ check_update(){
 	clear
 	banner_small ;
 	echo -ne "\n${GREEN}[${WHITE}+${GREEN}]${CYAN} Checking for update : "
-	new_version=$(curl --silent https://github.com/000sallam000/catch-kart/blob/main/catch-kart.sh | grep '__version__=' | cut -d">" -f2 | cut -d"<" -f1 | cut -d"=" -f 2)
+	new_version=$(curl --silent https://github.com/Death-Mask/catch-kart/blob/main/catch-kart.sh | grep '__version__=' | cut -d">" -f2 | cut -d"<" -f1 | cut -d"=" -f 2)
 	tarball_url="https://github.com/000sallam000/catch-kart/archive/refs/tags/${new_version}.tar.gz"
 
 	if [[ $new_version != $__version__ ]]; then
@@ -262,8 +262,8 @@ msg_exit() {
 about() {
 	{ clear; banner; echo; }
 	cat <<- EOF
-		${GREEN} Author   ${RED}:  ${ORANGE}Sa升升am ${RED}
-		${GREEN} Github   ${RED}:  ${CYAN}https://github.com/000sallam000
+		${GREEN} Author   ${RED}:  ${ORANGE}Death-Mask ${RED}
+		${GREEN} Github   ${RED}:  ${CYAN}https://github.com/Death-Mask
 		${GREEN} linkedin ${RED}:  ${CYAN}https://www.linkedin.com/in/sal-lam-ab422026b/
 		${GREEN} Version  ${RED}:  ${ORANGE}${__version__}
 
