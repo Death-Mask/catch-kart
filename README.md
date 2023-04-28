@@ -1,6 +1,6 @@
 <!-- catch-kart -->
 
-![Cover](https://github.com/Death-Mask/catch-kart/raw/master/.github/misc/logo.png)
+![Cover](https://github.com/Death-Mask/catch-kart/tree/main/.github/misclogo.png)
 
 <p align="center">
   <img src="https://img.shields.io/badge/Version-1.0.0-green?style=for-the-badge">
