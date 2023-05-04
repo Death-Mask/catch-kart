@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+header{
+    background-color: #FFF9F4;
+
+}
+header a {
+    font-size: 20px;
+}
+header p{
+    font-size: 20px;
+}
+section p{
+    font-size: 14px;
+}
+.navbar-brand img{
+    width: 291.11px;
+    height: 39.27px;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 80px;
+}
+
+h5{
+    color: #363958;
+    font-size: 26px;
+}
+
+.nike{
+    color: #FA804C;
+}
+
+.infinity{
+    color: #363958;
+}
+
+.btn{
+    background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+}
+
+.card img{
+    background-color: #F1F1F1;
+    border-radius: 10px;
+}
+.price{
+    color: #FA804C;
+}
+
+.title{
+    color: #363958;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.feature{
+    border-radius: 20px;
+}
+
+section{
+    padding:2rem 9%;
+}
+
+
+.heading span{
+    color:white;
+}
+
+
+.contact .row{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap:1.5rem;
+    align-items: center;
+}
+
+.contact .row form{
+    flex:1 1 40rem;
+    padding:2rem 2.5rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    border:.1rem solid rgba(0,0,0,.1);
+    background: #fff;
+    border-radius: .5rem;
+}
+
+.contact .row .image{
+    flex:1 1 40rem;
+}
+
+.contact .row .image img{
+    width: 100%;
+}
+
+.contact .row form .box{
+    padding:1rem;
+    font-size: 1.7rem;
+    color:#333;
+    text-transform: none;
+    border:.1rem solid rgba(0,0,0,.1);
+    border-radius: .5rem;
+    margin:.7rem 0;
+    width: 100%;
+}
+
+.contact .row form .box:focus{
+    border-color: #A9C9FF;
+}
+
+.contact .row form textarea{
+    height: 15rem;
+    resize: none;
+}
+
+.contact .row form .creditCardForm {
+    max-width: 700px;
+    background-color: #fff;
+    overflow: hidden;
+    padding: 25px;
+    color: #4c4e56;
+}
+
+
+.contact .row form .creditCardForm .payment {
+    float: left;
+    font-size: 15px;
+    padding: 10px 25px;
+    margin-top: 20px;
+    position: relative;
+}
+.contact .row form .creditCardForm .payment .form-group1{
+    position: relative;
+    left: 250px;
+    bottom:40px;
+}
+.contact .row form .creditCardForm .payment .form-group {
+    float: left;
+
+}
+select{
+    width: 100px;
+    height: 38px;
+    border: rgba(0, 0, 0, 0.138) solid 1px;
+    border-radius: 4px;
+    background-color: #cecece;
+}
+
+.contact .row form .creditCardForm .payment .form-control1 {
+    line-height: 40px;
+    height: auto;
+    padding: 0 16px;
+    border: rgba(0, 0, 0, 0.138) solid 1px;
+    border-radius: 4px;
+    width: 300px;
+    height: 35px;
+}
+.contact .row form .creditCardForm .payment .form-control1:focus{
+    border-color: #A9C9FF;
+}
+
+.contact .row form .creditCardForm .payment .form-control2 {
+    line-height: 40px;
+    height: auto;
+    padding: 0 16px;
+    border: rgba(0, 0, 0, 0.138) solid 1px;
+    border-radius: 4px;
+    width: 115px;
+    height: 35px;
+}
+
+.contact .row form .creditCardForm .payment .form-control2:focus{
+    border-color: #A9C9FF;
+}
+
+.contact .row form .creditCardForm .payment .form-control3 {
+    line-height: 40px;
+    height: auto;
+    padding: 0 16px;
+    border: rgba(0, 0, 0, 0.138) solid 1px;
+    border-radius: 4px;
+    width: 500px;
+    height: 35px;
+}
+
+.contact .row form .creditCardForm .payment .form-control3:focus{
+    border-color: #A9C9FF;
+}
+
+.contact .row form .creditCardForm .owner {
+    width: 63%;
+    margin-right: 10px;
+
+}
+
+.contact .row form .creditCardForm .CVV {
+    width: 35%;
+
+}
+
+.contact .row form .creditCardForm #card-number-field {
+    width: 100%;
+}
+
+.contact .row form .creditCardForm #expiration-date {
+    width: 49%;
+}
+
+.contact .row form .creditCardForm #credit_cards {
+    width: 50%;
+    margin-top: 25px;
+    text-align: right;
+}
+
+.contact .row form .creditCardForm #pay-now {
+    width: 100%;
+    margin-top: 25px;
+}
+
+.contact .row form .creditCardForm .payment .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background:#333;
+    color:#fff;
+    padding:.9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+.contact .row form .creditCardForm .payment .btn:hover {
+    background-color:#fffefe;
+    color:rgb(0, 0, 0);
+}
+
+.contact .row form .creditCardForm .payment select {
+    padding: 10px;
+    margin-right: 15px;
+}
+
+.otp .otp1{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap:1.5rem;
+    align-items: center;
+    position: relative;
+    top: 12rem;
+}
+.otp .otp1 .otp2 h1{
+    font-size:4.8rem ;
+    position: relative;
+    right: 9rem;
+}
+.otp .otp1 .otp3 form{
+    flex:1 1 40rem;
+    padding:2rem 2.5rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    border:.1rem solid rgba(0,0,0,.1);
+    background: #fff;
+    border-radius: .5rem;
+}
+
+.otp .otp1 .otp3 form .box{
+    padding:1rem;
+    font-size: 1.7rem;
+    color:#333;
+    text-transform: none;
+    border:.1rem solid rgba(0,0,0,.1);
+    border-radius: .5rem;
+    margin:.7rem 0;
+    width: 100%;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background:#333;
+    color:#fff;
+    padding:.9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+.btn:hover {
+    background-color:#fffefe;
+    color:rgb(0, 0, 0);
+}
+.vip .vipp{
+   
+    padding:2rem 2.5rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    border:.1rem solid rgba(0,0,0,.1);
+    background: #fff;
+    border-radius: .5rem;
+    position: relative;
+    top: 150px;
+
+}
+
+
+.vip .vipp h1{
+
+    font-size: 4.5rem;
+    color: black;
+    position: relative;
+    left: 180px;
+    top: 30px;
+}
+
+.vip .vipp a{
+    position: relative;
+    left: 43%;
+}
+@media only screen and (max-width: 688px){
+    h1{
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .title{
+        font-size: 36px;
+    }
+
+    .navbar-brand img{
+        width: 200.75px;
+        height: 29px;
+    }
+
+    .otp .otp1 .otp3 form{
+        flex:.5 .5 4rem;
+        padding:1rem 1rem;
+        box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+        border:.1rem solid rgba(0,0,0,.1);
+        background: #fff;
+        border-radius: .5rem;
+        position: relative;
+        top: 80px;
+        left: 80px;
+    }
+    
+    .otp .otp1 .otp3 form .box{
+        padding:1rem;
+        font-size: 1rem;
+        color:#333;
+        text-transform: none;
+        border:.1rem solid rgba(0,0,0,.1);
+        border-radius: .4rem;
+        margin:.7rem 0;
+        width: 44%;
+    }
+    .otp .otp1 .otp2 h1{
+        font-size:2.5rem ;
+        position: relative;
+        bottom: 120px;
+        left: 20px;
+
+
+        }
+        .btn{
+            display: inline-block;
+            margin-top: 1rem;
+            border-radius: 5rem;
+            background:#333;
+            color:#fff;
+            padding:.3rem 1.5rem;
+            cursor: pointer;
+            font-size: 1.5rem;
+            position: relative;
+            left: 20px;
+            bottom: 1px;
+        }
+        .vip .vipp{
+   
+            padding:1rem 1.5rem;
+            box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+            border:.1rem solid rgba(0,0,0,.1);
+            background: #fff;
+            border-radius: .5rem;
+        }
+        .vip .vipp h1{
+            position: relative;
+            font-size: 2.1rem;
+            color: black;
+            left: 10px;
+            bottom: 5px;            
+        }
+        .vip .vipp a{
+            position: relative;
+            left: 160px;
+            bottom: 20px;
+
+        }
+}
