@@ -66,7 +66,7 @@ It only demonstrates "how phishing works". <b>You shall not misuse the informati
 
 <h3 align="center">Workflow</h3>
 <p align="center">
-<img src=".github/misc/workflow.gif"/>
+<img src=".github/misc/workflo.gif"/>
 </p>
 
 ##
