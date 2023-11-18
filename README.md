@@ -93,6 +93,8 @@ It only demonstrates "how phishing works". <b>You shall not misuse the informati
 <p align="left">
   <a href="https://www.linkedin.com/in/ahmed-abd-alalim-286768299/" target="_blank"><img src="https://img.shields.io/badge/Socials-grey?style=for-the-badge&logo=linktree"></a>
   <a href="https://github.com/Death-Mask" target="_blank"><img src="https://img.shields.io/badge/Github-blue?style=for-the-badge&logo=github"></a>
+  <a href="https://tryhackme.com/p/sallam" target="_blank"><img src="https://custom-icon-badges.herokuapp.com/badge/TryHackMe-262c3e?style=for-the-badge&logo=tryhackme&logoColor=white" style="border-radius: 30px" target="_blank"></a>
+  
 </p>
 
 ##
